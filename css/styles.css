@@ -1,0 +1,120 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --primary-title-color: #fff;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 400;
+}
+
+
+/*header*/
+.nav-list{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+
+color:var(--primary-text-color);
+}
+.nav-list:hover,
+.nav-list :focus{
+    color: #2196F3;
+}
+.contact-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color:var(--secondary-text-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: #2196F3;
+}
+.contact-number{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+
+color:var(--secondary-text-color);
+}
+
+/*ефективні рішення для вашого бізнесу*/
+.box-title {
+    background: #2F303A;
+}
+
+.abaut-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-title-color);
+}
+
+.abaut-btn {
+    background: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-title-color);
+}
+
+/*особливості*/
+.features{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--primary-text-color);
+}
+.description{
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color:var(--secondary-text-color);
+}
+/*чим ми займаємось*/
+.abaut-us{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--primary-text-color);
+}
+/*наша команда*/
+.personal-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.9;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--primary-text-color);
+}
+.title-position{
+font-size: 16px;
+line-height: 1.9;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--secondary-text-color);
+}
+
+/*footer*/
+
+/*фільтр-button*/
+
+/*портфоліо-наші проекти*/
