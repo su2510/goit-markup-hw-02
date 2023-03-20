@@ -13,36 +13,40 @@ body {
 
 
 /*header*/
-.nav-list{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.02em;
+.nav-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 
-color:var(--primary-text-color);
+    color: var(--primary-text-color);
 }
+
 .nav-list:hover,
-.nav-list :focus{
+.nav-list :focus {
     color: #2196F3;
 }
-.contact-link{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-color:var(--secondary-text-color);
+
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
 }
+
 .contact-link:hover,
 .contact-link:focus {
     color: #2196F3;
 }
-.contact-number{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.02em;
 
-color:var(--secondary-text-color);
+.contact-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+
+    color: var(--secondary-text-color);
 }
 
 /*ефективні рішення для вашого бізнесу*/
@@ -70,72 +74,86 @@ color:var(--secondary-text-color);
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
+
 }
 
+/*.abaut-btn:hover,
+.abaut-btn:focus {
+    color: var(--primary-title-color);
+    background-color: #2196F3;
+    cursor: pointer;
+}*/
+
+
 /*особливості*/
-.features{
-font-weight: 700;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color:var(--primary-text-color);
+.features {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
 }
-.description{
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-color:var(--secondary-text-color);
+
+.description {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 }
+
 /*чим ми займаємось*/
-.abaut-us{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.2;
-text-align: center;
-letter-spacing: 0.03em;
-color:var(--primary-text-color);
+.abaut-us {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
+
 /*наша команда*/
-.personal-name{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.9;
-text-align: center;
-letter-spacing: 0.03em;
-color:var(--primary-text-color);
+.personal-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
-.title-position{
-font-size: 16px;
-line-height: 1.9;
-text-align: center;
-letter-spacing: 0.03em;
-color:var(--secondary-text-color);
+
+.title-position {
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 }
 
 /*footer*/
 
 /*фільтр-button*/
 
-.filtr-btn{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-text-align: center;
-letter-spacing: 0.03em;
-color:var(--primary-text-color);
+.filtr-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
+
 .filtr-btn:hover,
-.filtr-bt:focus{
-    color:var(--primary-title-color);
+.filtr-bt:focus {
+    color: var(--primary-title-color);
     background-color: #2196F3;
     cursor: pointer;
 }
 
 /*портфоліо-наші проекти*/
-.title-projects{
-font-size: 16px;
-line-height: 1.9;
-letter-spacing: 0.03em;
-color:var(--secondary-text-color);
+.title-projects {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 }
