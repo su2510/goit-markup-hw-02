@@ -131,6 +131,15 @@ body {
 }
 
 /*footer*/
+.box-address{
+    background-color: #2F303A;
+}
+.address-title{
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var(--primary-title-color);
+}
 
 /*фільтр-button*/
 
